@@ -1,1 +1,26 @@
-
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.fishList{
+    display: flex;
+    background-color: blue;
+    width: 75%;
+}
+.fish{
+    border: 2px solid black;
+    margin: 5px;
+}
+.quote{
+    border: 2px solid red;
+}
+.location{
+    border: 2px solid blue;
+}
+.tips{
+    align-self: flex-end;
+}
+.tip{
+    border: 2px solid green;
+}
