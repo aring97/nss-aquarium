@@ -1,58 +1,14 @@
+@import "fish.css";
+@import "locations.css";
+@import "quotes.css";
+@import "tips.css";
 main{
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    
 }
 .content-left{
     width:75%;
 }
 .content-right{
     width:25%;
-}
-.fishList{
-    display: flex;
-    background-color: blue;
-}
-.fish{
-    border: 2px solid black;
-    width:25%;
-    margin: 5px;
-    padding: 0px 4px;
-    background-color: skyblue;
-}
-.fish-img{
-    width: 50%;
-}
-.quotes{
-    display: flex;
-    background-color: orange;
-    margin-top: 10px;
-}
-.quote{
-    border: 2px solid red;
-    width:25%;
-    margin: 5px;
-    padding: 0px 4px;
-    background-color: orangered;
-}
-.locations{
-    display: flex;
-    background-color: rgb(58, 201, 58);
-    margin-top: 10px;
-}
-.location{
-    border: 2px solid blue;
-    width:25%;
-    margin: 5px;
-    padding: 0px 4px;
-    background-color: rgb(50, 255, 77);
-}
-.location-img{
-    width: 50%;
-}
-.tips{
-    background-color: burlywood;
-}
-.tip{
-    border: 2px solid green;
 }
