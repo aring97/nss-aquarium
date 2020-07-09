@@ -3,27 +3,29 @@ main{
     flex-direction: column;
     flex-wrap: wrap;
 }
-aside{
-    display: flex;
+.content-left{
+    width:75%;
+}
+.content-right{
+    width:25%;
 }
 .fishList{
     display: flex;
     background-color: blue;
-    width: 75%;
 }
 .fish{
     border: 2px solid black;
     width:25%;
     margin: 5px;
     padding: 0px 4px;
+    background-color: skyblue;
 }
 .fish-img{
     width: 50%;
 }
 .quotes{
     display: flex;
-    background-color: orangered;
-    width: 75%;
+    background-color: orange;
     margin-top: 10px;
 }
 .quote{
@@ -31,11 +33,11 @@ aside{
     width:25%;
     margin: 5px;
     padding: 0px 4px;
+    background-color: orangered;
 }
 .locations{
     display: flex;
-    background-color: rgb(71, 241, 71);
-    width: 75%;
+    background-color: rgb(58, 201, 58);
     margin-top: 10px;
 }
 .location{
@@ -43,15 +45,13 @@ aside{
     width:25%;
     margin: 5px;
     padding: 0px 4px;
+    background-color: rgb(50, 255, 77);
 }
 .location-img{
     width: 50%;
 }
 .tips{
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 25%;
+    background-color: burlywood;
 }
 .tip{
     border: 2px solid green;
