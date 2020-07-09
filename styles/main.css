@@ -1,1 +1,14 @@
-
+@import "fish.css";
+@import "locations.css";
+@import "quotes.css";
+@import "tips.css";
+main{
+    display: flex;
+    
+}
+.content-left{
+    width:75%;
+}
+.content-right{
+    width:25%;
+}

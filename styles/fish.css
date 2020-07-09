@@ -1,0 +1,14 @@
+.fishList{
+    display: flex;
+    background-color: blue;
+}
+.fish{
+    border: 2px solid black;
+    width:25%;
+    margin: 5px;
+    padding: 0px 4px;
+    background-color: skyblue;
+}
+.fish-img{
+    width: 50%;
+}

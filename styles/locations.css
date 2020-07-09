@@ -1,0 +1,15 @@
+.locations{
+    display: flex;
+    background-color: rgb(58, 201, 58);
+    margin-top: 10px;
+}
+.location{
+    border: 2px solid blue;
+    width:25%;
+    margin: 5px;
+    padding: 0px 4px;
+    background-color: rgb(50, 255, 77);
+}
+.location-img{
+    width: 50%;
+}

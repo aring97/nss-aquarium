@@ -1,0 +1,12 @@
+.quotes{
+    display: flex;
+    background-color: orange;
+    margin-top: 10px;
+}
+.quote{
+    border: 2px solid red;
+    width:25%;
+    margin: 5px;
+    padding: 0px 4px;
+    background-color: orangered;
+}
